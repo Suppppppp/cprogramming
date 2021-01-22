@@ -13,8 +13,8 @@
             "command": "g++",
             "args": [
                 "${file}",
-                "-g",
-                "-o",
+                "-g",  // -g가 디버깅을 가능하게 해줍니다. 아래의 C컴파일러도 변경해줍니다. This option -g enables debugging. You also have to change the compiler part below.
+                "-o",    // -o가 컴파일을 가능하게 해줍니다. This option -o enables compiling .
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": "build",
@@ -43,8 +43,8 @@
             "command": "gcc",
             "args": [
                 "${file}",
-                "-g",
-                "-o",
+                "-g",   // -g가 디버깅을 가능하게 해줍니다. This option -g enables debugging.
+                "-o",  // -o가 컴파일을 가능하게 해줍니다. This option -o enables compiling .
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": "build",
