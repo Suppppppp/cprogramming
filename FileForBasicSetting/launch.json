@@ -16,7 +16,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe", // 여기에 본인이 mingw설치한 위치에서 bin\\gdb.exe 주소를 적어줘야합니다 매우중요! you have to this directory as your "mingw64\\bin\\gdb.exe" location
+            "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe", // 여기에 본인이 mingw설치한 위치에서 bin\\gdb.exe 주소를 적어줘야합니다 매우중요! you have to this directory as your mingw64\\bin\\gdb.exe location
             "setupCommands": [
                 {
                     "description": "gdb에 자동 서식 지정 사용",
