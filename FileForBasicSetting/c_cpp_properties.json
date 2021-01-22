@@ -10,8 +10,8 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\mingw64\\bin\\gcc.exe",
-            "cStandard": "c11",
+            "compilerPath": "C:\\mingw64\\bin\\gcc.exe", // 설치한 위치의 mingw64\\bin\\gcc.exe로 변경해줍니다. Change to your directory where you installed mingw64
+            "cStandard": "c11",  // c표준인 c11로 바꾸어 주어야합니다. You have to change c11 because it is standard for C.
             "cppStandard": "gnu++14",
             "intelliSenseMode": "gcc-x64"
         }
